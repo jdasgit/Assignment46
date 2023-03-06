@@ -1,5 +1,6 @@
 # Assignment46 -Voting App
 1. Once the voter pod was deleted, it was respawned again with a different id. but front end was fine. and back end was also fine. The voting count remained correct.
+Command used was kubectl delete po <pod_id>   
 
 2. Once the worker pod was deleted, it was respawned again with a different id. but front end was fine. and back end was also fine. The voting count remained correct.
 
@@ -17,3 +18,12 @@ worker-dd46d7584-44727    1/1     Running   1          88s
 ```
 4. When DB pod is deleted, the data goes away along with it. The vote count from previous instance is gone. 
 5. If we restart a POD, the container restart count is reset. as in the case of worker-dd46d7584-44727
+6. Overall, learnt about the following in the last 40 hour training
+  - Container vs Virtualization
+  - Port Mapping
+  - Layering
+  - Replication Set
+  - Daemon Set
+  - Services
+  - NodePort
+  - Rolling Update
