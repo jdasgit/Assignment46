@@ -15,3 +15,5 @@ result-5d57b59f4b-6kqgt   1/1     Running   2          2d20h
 vote-94849dc97-k577n      1/1     Running   0          2d20h
 worker-dd46d7584-44727    1/1     Running   1          88s
 ```
+4. When DB pod is deleted, the data goes away along with it. The vote count from previous instance is gone. 
+5. If we restart a POD, the container restart count is reset. as in the case of worker-dd46d7584-44727
