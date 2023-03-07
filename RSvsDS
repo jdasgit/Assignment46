@@ -1,0 +1,3 @@
+Daemon Set should be used whenever only one pod needs to run on a worker node. Common use case to use Daemon Set
+1. To collect periodic logs from all containers running on that pod and scp to any remote server for backup
+2. To report ALARM
